@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Formulario de Registro</string>
+    <string name="formulario">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="celular">Celular</string>
+    <string name="correo">Email</string>
+    <string name="ciudad">Ciudad de nacimiento</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="sexo">Sexo</string>
+    <string name="cine">Cine</string>
+    <string name="comer">Comer</string>
+    <string name="deporte">Deporte</string>
+    <string name="dormir">Dormir</string>
+    <string name="hobbie">Hobbie</string>
+    <string name="registrar">Registrar</string>
+    <string name="info">Informacion Digitada</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="recontraseña">Repetir contraseña</string>
+    <string name="fecha">Fecha de nacimiento</string>
+
+    <string-array name="ciudad_array">
+        <item>Medellin</item>
+        <item>Bogota</item>
+        <item>Barranquilla</item>
+        <item>Monteria</item>
+        <item>Sincelejo</item>
+        <item>Sahagun</item>
+        <item>Pereira</item>
+        <item>Cartagena</item>
+    </string-array>
+</resources>

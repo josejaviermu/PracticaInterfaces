@@ -1,1 +1,1 @@
-include ':app', ':calcula_resistencia'
+include ':app', ':calcula_resistencia', ':sololayout', ':micalculadora', ':formularioderegistro', ':calcular_figuras'

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calcular_figuras</string>
+    <string name="calculafigura">Calcular Figura</string>
+    <string name="triangulo">Triangulo</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="circulo">Circulo</string>
+    <string name="cubo">Cubo</string>
+    <string name="ancho">Ancho</string>
+    <string name="alto">Alto</string>
+    <string name="calcular">Calcular</string>
+    <string name="informa">Información calculada</string>
+</resources>

@@ -22,18 +22,34 @@ public class MainActivity extends AppCompatActivity {
 
         eAncho = (EditText) findViewById(R.id.eAncho);
         eAlto = (EditText) findViewById(R.id.eAlto);
-        eLargo = (EditText) findViewById(R.id.eLargo);
+        //eLargo = (EditText) findViewById(R.id.eLargo);
         tInforma = (TextView) findViewById(R.id.tInforma);
         bCalcular = (Button) findViewById(R.id.bCalcular);
+
     }
 
     public void Calcular(View view) {
+        perimetro = 0;
+        area = 0;
+        volumen = 0;
+
         ancho = eAncho.getText().toString();
         alto = eAlto.getText().toString();
-        largo = eLargo.getText().toString();
+       // largo = eLargo.getText().toString();
 
-        anchod = Double.parseDouble(ancho);
-        altod = Double.parseDouble(alto);
+        //Double temp = Double.valueOf(ancho);
+        //anchod = temp.doubleValue();
+        //Double tempo = Double.valueOf(alto);
+        //altod = tempo.doubleValue();
+
+        //anchod = Double.parseDouble(eAncho.getText().toString());
+        //altod = Double.parseDouble(eAlto.getText().toString());
+
+        //anchod = Double.valueOf(ancho).doubleValue();
+        //altod = Double.valueOf(alto).doubleValue();
+
+        //anchod = new Double(ancho).doubleValue();
+        //altod = new Double(alto).doubleValue();
 
         if (figura == "triangulo"){
             perimetro = Math.sqrt((anchod*anchod)+(altod*altod))+anchod+altod;
@@ -53,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
             volumen = anchod*anchod*anchod;
         }
 
-
         tInforma.setText("Perimetro: "+perimetro+"\nArea: "+area+"\nVolumen: "+volumen);
     }
 
@@ -62,15 +77,19 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.rtriangulo){
             figura = "triangulo";
+            eAlto.setEnabled(true);
         }
         if (id == R.id.rcuadrado){
             figura = "cuadrado";
+            eAlto.setEnabled(false);
         }
         if (id == R.id.rcirculo){
             figura = "circulo";
+            eAlto.setEnabled(false);
         }
         if (id == R.id.rcubo){
             figura = "cubo";
+            eAlto.setEnabled(false);
         }
     }
 

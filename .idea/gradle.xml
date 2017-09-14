@@ -10,6 +10,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/calcula_resistencia" />
+            <option value="$PROJECT_DIR$/calcular_figuras" />
+            <option value="$PROJECT_DIR$/formularioderegistro" />
+            <option value="$PROJECT_DIR$/micalculadora" />
+            <option value="$PROJECT_DIR$/sololayout" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
